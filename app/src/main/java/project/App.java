@@ -5,6 +5,15 @@ package project;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello world.");
+        NormalDuck normalDuck = new NormalDuck();
+        normalDuck.display();
+        normalDuck.fly();
+        normalDuck.quack();
+
+        JetPackDuck jetPackDuck = new JetPackDuck();
+        jetPackDuck.display();
+        jetPackDuck.fly();
+        jetPackDuck.quack();
+
     }
 }
