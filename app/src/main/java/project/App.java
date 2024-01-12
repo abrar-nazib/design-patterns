@@ -5,27 +5,6 @@ package project;
 
 public class App {
     public static void main(String[] args) {
-        // WeatherData weatherData = new WeatherData();
-
-        // CurrentConditionsDisplay currentConditionsDisplay = new
-        // CurrentConditionsDisplay(weatherData);
-        // StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
-        // ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
-
-        // weatherData.setMeasurements(0, 0, 0);
-        // weatherData.setMeasurements(1, 1, 1);
-        // weatherData.setMeasurements(2, 2, 2);
-
-        // Beverage beverage = new Espresso();
-        // System.out.println(beverage.cost());
-
-        // beverage = new CaramelDecorator(beverage);
-        // System.out.println(beverage.cost());
-
-        // beverage = new MochaDecorator(beverage);
-        // System.out.println(beverage.cost());
-
-        Beverage beverage = new MochaDecorator(new CaramelDecorator(new Espresso()));
-        System.out.println(beverage.cost());
+        System.out.println("Hello world.");
     }
 }
